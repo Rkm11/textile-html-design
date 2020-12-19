@@ -101,10 +101,27 @@
       <div  class="row">
         <div class="col-md-6">
           <div class="product-left clearfix same-height">
-            <div class="product-img clearfix">
-              <img id="product-main-img" src="images/1.jpeg">
+            <div class="product-img clearfix main-image">
+              <img id="product-main-img" class="" src="images/1.jpeg">
             </div>
           </div>
+		  <ul class="thumbnails" id="product-image-ul">
+				<li class="product-image-thumb flex-active-thumb">
+					<img class="product-thumb" src="images/1.jpeg">
+				</li>
+				<li class="product-image-thumb">
+					<img class="product-thumb" src="images/2.jpeg">
+				</li>
+				<li class="product-image-thumb">
+					<img class="product-thumb" src="images/3.jpeg">
+				</li>
+				<li class="product-image-thumb">
+					<img class="product-thumb" src="images/4.jpeg">
+				</li>
+				<li class="product-image-thumb">
+					<img class="product-thumb" src="images/5.jpeg">
+				</li>
+			</ul>
         </div>
         <div class="col-md-6">
           <div class="border-box price-detl same-height">
@@ -181,55 +198,8 @@
               </div>
             </div>
         </div>
-        <!--<div class="col-md-4">
-            <div class="border-box scn-detl same-height">
-              <h3>Blooming Vol-9</h3>
-              <p>Blooming Vol-9 Weightless printed with fancy lace sarees full Product at
-                            wholesale price</p>
-
-              <h4>Specification :</h4>
-              <div class="detail-table detail-table1">
-                <table class="tabel table-condensed products_details">
-                  <tbody>
-                    <tr>
-                      <td>NAME </td>
-                      <td>Blooming Vol-9</td>
-                    </tr>
-                                    <tr>
-                      <td>TOTAL DESIGN </td>
-                      <td>12</td>
-                    </tr>
-                    <tr>
-                      <td>PER PIECE RATE </td>
-                      <td><span class="inr-cur"><i class="fa fa-inr"></i> 440/-</span><span atr-inr="440" class="con-cur" style="display: none;"><i class="fa fa-usd"></i> 0.00</span></td>
-                    </tr>
-                    <tr>
-                      <td>FULL Product RATE </td>
-                      <td><span class="inr-cur"><i class="fa fa-inr"></i> 5280/-</span><span atr-inr="5280" class="con-cur" style="display: none;"><i class="fa fa-usd"></i> 0.00</span></td>
-                    </tr>
-                    <tr>
-                      <td>WEIGHT </td>
-                      <td>8</td>
-                    </tr>
-                    <tr>
-                      <td>Type </td>
-                      <td>Georgette Sarees</td>
-                    </tr>
-                    <tr>
-                      <td>MOQ </td>
-                      <td>Minimum 12 Pcs.</td>
-                    </tr>
-                    <tr>
-                      <td>Fabric Description  </td>
-                      <td> Weightless with fancy lace</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>-->
       </div>
-	  <div class="row">
+	  <!--<div class="row">
 		<div class="col-md-6 col-sm-4 col-xs-12">
 		   <ul id="product-image-ul">
 				<li class="product-image-thumb flex-active-thumb">
@@ -250,7 +220,7 @@
 			</ul>
         </div>
 	  </div>
-        </div>
+        </div>-->
   <div>
   
 </section>
@@ -507,12 +477,6 @@
 
           } );
         </script>
-        <script>
-                lightbox.option({
-                  'resizeDuration': 200,
-                  'wrapAround': true
-                })
-            </script>
 
 </body>
 </html>
