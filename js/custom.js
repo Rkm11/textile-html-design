@@ -19,12 +19,12 @@ jQuery(document).ready(function(){
 	  } );
 
 	/********* Sticky Header ************/	
-	jQuery(window).scroll(function(){
+	/*jQuery(window).scroll(function(){
 	var sticky = jQuery('body'),
 		scroll = jQuery(window).scrollTop();	
 	if(scroll >= 200) sticky.addClass('sticky-header');
 	else sticky.removeClass('sticky-header');	
-	});
+	});*/
 
 	/********* Sliders ************/	
 	jQuery('#main-slide').owlCarousel({
