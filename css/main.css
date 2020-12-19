@@ -36,7 +36,7 @@ ul, li{
   text-align: center;
 } 
 .comm-head span {
-  color:#FF008C;
+  color:#CF559D;
   font-size: 45px;
   text-transform:uppercase;
 }
@@ -58,7 +58,7 @@ ul, li{
   width: 35px;
 }
 .comm-head > h4::after {
-  background: #ff008c none repeat scroll 0 0;
+  background: #CF559D none repeat scroll 0 0;
   content: "";
   height: 1px;
   position: absolute;
@@ -91,7 +91,7 @@ ul, li{
   height: 40px;
 }
 .btn-pink{
-  background: #FF008C;
+  background: #CF559D;
   color:#fff; 
 }
 .btn-pink:hover {
@@ -168,7 +168,7 @@ textarea.form-control {
   margin-top: 0;
 }
 .sticky-header .head-bottom {
-  background: #d80073;
+  background: #000;
 }
 .sticky-header .main-menu a {
   color: #fff;
@@ -193,12 +193,13 @@ textarea.form-control {
   text-align: center;
   margin: 0 0 0;
   padding: 0 0 0px;
-  border-bottom: 1px solid #d80073;
+  border-bottom: 1px solid #CF559D;
   position: absolute;
-  background: #d80073;
+  background: #CF559D;
   left: 0;
+  line-height:50px;
   width: 100%;
-  height: 27px;
+  height: 40px;
   padding: 0 110px;
 }
 .top-strip-left {
@@ -242,7 +243,7 @@ textarea.form-control {
   font-size: 12px;
 }
 .head-top, .head-bottom {
-  padding: 5px 110px;
+  padding: 5px 225px;
 }
 .head-bottom {
   background: #fafafa;
@@ -264,7 +265,8 @@ textarea.form-control {
   padding: 5px 0;
 }
 .logo img {
-  width: 160px;
+  width: 210px;
+  height: 61px
 }
 
 .head-cont .media {
@@ -350,7 +352,7 @@ textarea.form-control {
 .social-link-list li a:hover{
   border-radius:0 10px; 
   color:#fff;
-  border:1px solid #FF008C;
+  border:1px solid #CF559D;
 }
 .social-link-list li a:hover::after {
   transform: scaleX(1);
@@ -362,7 +364,7 @@ textarea.form-control {
   transform:scale(1.3); 
 }
 .main-menu div, .foot-left li {
-  float: left;
+  --float: left;
 }
 .main-menu li {
   display: inline-block;
@@ -393,14 +395,15 @@ textarea.form-control {
   color: #333333;
   display: block;
   margin: 0;
-  padding: 11px 10px;
+  padding: 15px 12px;
   position: relative;
-  font-size: 13px;
+  font-size: 30px;
+  font-family: Brush Script MT;
   z-index: 1;
   text-transform: capitalize;
 }
 .main-menu a:hover {
-  color: #FF008C;
+  color: #CF559D;
 }
 .sticky-header .main-menu a:hover {
   color: #fff;
@@ -489,8 +492,8 @@ textarea.form-control {
 }
 .main-menu a i {
   position: absolute;
-  top: 13px;
-  right: -4px;
+    top: 24px;
+    right: -8px;
 }
 
 .onclick {
@@ -606,7 +609,7 @@ textarea.form-control {
   z-index:10;
 }
 .cap-bnr h4{
-  color: #FF008C;
+  color: #CF559D;
   font-size:50px;
 }
 .cap-bnr p{
@@ -646,7 +649,7 @@ textarea.form-control {
   background: #ffffff none repeat scroll 0 0;
   border-radius: 50%;
   box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.8);
-  color: #ff008c;
+  color: #CF559D;
   height: 40px;
   left: 0;
   line-height: 40px; 
@@ -904,7 +907,7 @@ section.our-causes-blk {
   margin: 0;
 }
 .cuse-data-blk:hover .cau-btn .btn.cust-btn{
-  background: #FF008C none repeat scroll 0 0;
+  background: #CF559D none repeat scroll 0 0;
   color: #fff;
 }
 .ause-amnt h4 {
@@ -922,7 +925,7 @@ section.our-causes-blk {
 
 .view-catlog, .view-catlog:hover, .view-catlog:focus {
   display: block;
-  background: #ff008c;
+  background: #CF559D;
   text-transform: capitalize;
   color: #fff;
   position: absolute;
@@ -950,7 +953,7 @@ section.our-causes-blk {
 }
 .view-prduct-by label {
   margin: 0;
-  border-left: 4px solid #ff008c;
+  border-left: 4px solid #CF559D;
   padding: 4px 0 4px 10px;
 }
 .view-prduct-by li {
@@ -960,7 +963,7 @@ section.our-causes-blk {
   padding: 4px 0;
 }
 .view-prduct-by .pull-right a {
-  color: #ff008c;
+  color: #CF559D;
   font-size: 14px;
   text-transform: uppercase;
   padding: 4px 14px;
@@ -968,7 +971,7 @@ section.our-causes-blk {
   letter-spacing: 1px;
 }
 .view-prduct-by .pull-right a:hover, .view-prduct-by .pull-right li.active a {
-  background: #ff008c;
+  background: #CF559D;
   border-radius: 30px;
   color: #fff;
   padding: 4px 14px;
@@ -996,8 +999,8 @@ section.our-causes-blk {
   line-height:30px; 
 }
 .pagination a.active, .pagination a:hover{
-  color:#ff008c ;
-  border:1px solid #ff008c;    
+  color:#CF559D ;
+  border:1px solid #CF559D;    
 }
 /* design-menu */
 .designer-manu h2 {
@@ -1015,7 +1018,7 @@ section.our-causes-blk {
   box-shadow: 2px 1px 6px #ebe9e9;
 }
 .footer-benifti .bnf-box i {
-  color:#FF008C;
+  color:#CF559D;
   font-size: 60px;
   width: 70px;
   height: 71px;
@@ -1070,7 +1073,7 @@ footer {
   text-transform: capitalize;
 }
 .footer-hed::before {
-  background: #ff008c;
+  background: #CF559D;
   bottom: 0;
   content: "";
   height: 2px;
@@ -1093,7 +1096,7 @@ footer {
   -o-transition:all 0.3s ease-in-out;
 }
 .footer-content a:hover {
-  color: #ff008c; 
+  color: #CF559D; 
 }
 .footer-content a::before {
   border: 2px solid rgba(216, 0, 115,0.3);
@@ -1151,7 +1154,7 @@ footer {
 }
 .copy-rights a {
   display:inline-block;
-  color:#ff008c;  
+  color:#CF559D;  
   font-weight:700;
 }
 .footer-social li {
@@ -1176,7 +1179,7 @@ footer {
   -o-transition:all 0.4s ease-in-out;
 }
 .footer-social a:hover {
-   background:#ff008c;  
+   background:#CF559D;  
 }
 /*  */
 .head-sre-inp {
@@ -2148,4 +2151,52 @@ span.mrg-top10 {
   font-size: 24px;
   right: 0;
   top: 0;
+}
+
+.cart-value{
+	background: #31303c;
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 17px;
+    color: #fff;
+    font-size: 12px;
+    top: 1px;
+    right: 167px;
+}
+.wish-list{
+	background: #31303c;
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 17px;
+    color: #fff;
+    font-size: 12px;
+    top: 1px;
+    right: 113px;
+}
+.menu-style{
+	color: #333333;
+    display: block;
+    margin: 0;
+    padding: 11px 10px;
+    position: relative;
+    font-size: 15px;
+    z-index: 1;
+    text-transform: capitalize;
+	line-height: 55px;
+}
+.logo {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.topheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
 }
