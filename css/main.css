@@ -2227,14 +2227,13 @@ span.mrg-top10 {
 .menu-label{
 	top:10px;
 }
-#product-image-ul ul{
-  list-style: none;
-}
-#product-image-ul li{
-  display:inline-block;
-  list-style-type: none;
-  padding-right: 10px;
-  float: left;
+
+ol#product-image-ul li{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 !important;
 }
 .product-image-thumb img{
 	height:150px;
@@ -2247,3 +2246,11 @@ span.mrg-top10 {
 .flex-active-thumb{
 	opacity:1;
 }
+ul#product-image-ul {
+    padding: 7px 0px;
+}
+
+    .thumbnails li {
+      display: inline;
+      margin: 0 7px 0 0;
+    }
