@@ -168,10 +168,10 @@ textarea.form-control {
   margin-top: 0;
 }
 .sticky-header .head-bottom {
-  background: #000;
+  background: #fff;
 }
 .sticky-header .main-menu a {
-  color: #fff;
+  color: #000;
 }
 .sticky-header .dropdown-box a, .sticky-header .dropdown-box a:hover {
   color: #595959 !important;
@@ -243,8 +243,9 @@ textarea.form-control {
   font-size: 12px;
 }
 .head-top, .head-bottom {
-  padding: 5px 225px;
+  padding: 8px 225px !important;
 }
+
 .head-bottom {
   background: #fafafa;
 }
@@ -395,7 +396,7 @@ textarea.form-control {
   color: #333333;
   display: block;
   margin: 0;
-  padding: 15px 12px;
+  padding: 0px 12px;
   position: relative;
   font-size: 30px;
   font-family: Brush Script MT;
@@ -411,6 +412,10 @@ textarea.form-control {
 .sticky-header .dropdown-box a:hover {
   color: #fff;
 }
+.sticky-header.head-top, .head-bottom {
+  padding: 8px 225px !important
+}
+
 .head-sre-inp .form-control {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   
@@ -492,7 +497,7 @@ textarea.form-control {
 }
 .main-menu a i {
   position: absolute;
-    top: 24px;
+    top: 9px;
     right: -8px;
 }
 
@@ -594,7 +599,7 @@ textarea.form-control {
 }
 /*------------------- Banner  -------------------*/
 .main-banner {
-  margin-top: 145px;
+  margin-top: 115px;
 }
 .bnr-slide .item.back-img {
   height: 450px; 
@@ -834,7 +839,7 @@ section.our-causes-blk {
   transform:translate(0);
   text-align:center;
   margin: 0 0 30px;
-  height: 595px;
+  height: 483px;
   box-shadow: 0 0 4px #e5e5e5;
 }
 /* .cuse-data-blk:hover{
@@ -1457,6 +1462,10 @@ footer {
 .margin-top-166 {
   margin-top: 166px;
 }
+
+.margin-top-115 {
+  margin-top: 115px;
+}
 .detail-product-price {
   position: relative;
   bottom: 0;
@@ -1468,6 +1477,18 @@ footer {
   padding: 0;
   margin: -3px 0 0;
 }
+.detail-product-name{
+	font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px !important;
+    color: #4c4c4c;
+	bottom:15px;
+}
+.prod-details-desc{
+	font-size: 18px;
+}
+
 .in-stock {
   position: absolute;
   top: 0;
@@ -1615,7 +1636,7 @@ footer {
   height: 280px !important;
 }
 #product-slide .cuse-data-blk {
-  height: 476px;
+  height: 281px;
 }
 /* breadcrumb */
 .bredcrumb {
@@ -2202,4 +2223,27 @@ span.mrg-top10 {
     align-items: center;
     justify-content: space-evenly;
     background-color: transparent;
+}
+.menu-label{
+	top:10px;
+}
+#product-image-ul ul{
+  list-style: none;
+}
+#product-image-ul li{
+  display:inline-block;
+  list-style-type: none;
+  padding-right: 10px;
+  float: left;
+}
+.product-image-thumb img{
+	height:150px;
+	cursor:pointer;
+}
+.product-image-thumb{
+	opacity:0.5;
+}
+
+.flex-active-thumb{
+	opacity:1;
 }
