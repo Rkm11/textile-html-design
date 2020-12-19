@@ -52,6 +52,22 @@ jQuery(document).ready(function(){
 		dots:false,
 		autoplay:true,
 		margin:10,
+		responsiveClass:true,
+		responsive:{
+        0:{
+            items:1,
+            nav:true
+			},
+        600:{
+            items:3,
+            nav:false
+			},
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+			}
+		},
 		slideTransition: 'linear',
 		autoplaySpeed: 1000,
 		smartSpeed: 1000,
@@ -76,6 +92,8 @@ jQuery(document).ready(function(){
     //     $(".stitching-size").slideToggle();
     // });
 });
+
+
 
 $(function() {
     $("#product-image-ul li").on("click", function(e) {
