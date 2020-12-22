@@ -1,4 +1,4 @@
-/*---------------------------------- Common Css by piyush  ----------------------------------*/
+
 *::before, *::after, .btn, .animate, a, .fa, .top-strip, .head-top, .head-bottom, .main-menu a{
   transition:all 0.3s ease-in 0s;
   -moz-transition:all 0.3s ease-in 0s;
@@ -963,6 +963,7 @@ font-weight:600;
   margin: 0;
   border-left: 4px solid #CF559D;
   padding: 4px 0 4px 10px;
+  font-size:15px;
 }
 .view-prduct-by li {
   display: inline-block;
