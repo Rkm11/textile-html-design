@@ -48,7 +48,7 @@ ul, li{
 }
 /* by Piyush */
 .comm-head > h4::before {
-  background: rgba(255, 0, 140, 0.65) none repeat scroll 0 0;
+  background: rgba(207, 85, 157, 0.65) none repeat scroll 0 0;
   border-radius: 0 10px;
   content: "";
   height: 35px;
@@ -2300,6 +2300,9 @@ ul#product-image-ul {
 
 .table-head{
 	padding: 10px 10px 10px;
+	font-size:15px;
+	font-weight:500;
+	color:#000;
 }
 
 .cart-product-img{
