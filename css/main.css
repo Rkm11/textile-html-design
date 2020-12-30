@@ -1,5 +1,5 @@
-/*---------------------------------- Common Css by piyush  ----------------------------------*/
-*::before, *::after, .btn, .animate, a, .fa, .top-strip, .head-top, .head-bottom, .main-menu a{
+
+*::before, *::after, .btn, .animate, a, .fa, .head-top, .head-bottom, .main-menu a{
   transition:all 0.3s ease-in 0s;
   -moz-transition:all 0.3s ease-in 0s;
   -ms-transition:all 0.3s ease-in 0s;
@@ -204,7 +204,7 @@ textarea.form-control {
   height: 40px;
   padding: 0 110px;
 }*/
-top-strip {
+.top-strip {
     text-align: center;
     margin: 0 0 0;
     padding: 0 0 0px;
@@ -228,9 +228,9 @@ top-strip {
   display: inline-block;
 }
 .top-strip-left li a, .top-strip-right li a {
-  font-size: 12px;
+  font-size: 15px;
   color: #fff;
-  padding: 5px 15px;
+  padding: 5px 5px;
   display: block;
   text-transform: uppercase;
 }
@@ -381,7 +381,7 @@ top-strip {
   transform:scale(1.3); 
 }
 .main-menu div, .foot-left li {
-  --float: left;
+  float: left;
 }
 .main-menu li {
   display: inline-block;
@@ -460,6 +460,7 @@ top-strip {
   width: 180px;
   visibility: hidden;
   border-radius: 4px;
+  z-index:9;
   transform: rotateX(-90deg);
   -webkit-transform: rotateX(-90deg);
   -ms-transform: rotateX(-90deg);
@@ -614,9 +615,9 @@ top-strip {
   visibility: visible;
 }
 /*------------------- Banner  -------------------*/
-.main-banner {
+/*.main-banner {
   margin-top: 115px;
-}
+}*/
 .bnr-slide .item.back-img {
   height: 450px; 
 }
@@ -2217,28 +2218,28 @@ span.mrg-top10 {
 .cart-value{
 	background: #31303c;
     position: absolute;
-    height: 17px;
-    width: 17px;
+    height: 15px;
+    width: 14px;
     border-radius: 50%;
     text-align: center;
     line-height: 17px;
     color: #fff;
-    font-size: 12px;
-    top: 1px;
-    right: 217px;
+    font-size: 10px;
+    top: 4px;
+    right: 168px;
 }
 .wish-list{
 	background: #31303c;
     position: absolute;
-    height: 17px;
-    width: 17px;
+    height: 15px;
+    width: 14px;
     border-radius: 50%;
     text-align: center;
     line-height: 17px;
     color: #fff;
-    font-size: 12px;
-    top: 1px;
-    right: 163px;
+    font-size: 10px;
+    top: 3px;
+    right: 137px;
 }
 .menu-style{
 	color: #333333;
@@ -2251,10 +2252,7 @@ span.mrg-top10 {
     text-transform: capitalize;
 	line-height: 55px;
 }
-.logo {
-    padding-left: 80px;
-    padding-right: 80px;
-}
+
 .topheader {
     display: flex;
     align-items: center;
@@ -2416,5 +2414,89 @@ ul#product-image-ul {
 .saved-billing-name{
 	font-weight: 500;
 	font-size: 18px;
+}
+header .topheader{
+		display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+header .left-side-header{
+	display: flex;
+    align-items: center;
+}
+.pnz-header .pnz-logo {
+    margin: 15px auto;
+    text-align: center;
+    height: auto;
+    width: 50px;
+}
+header ul
+{ 
+--overflow-x:hidden;
+white-space:nowrap; 
+--height: 1em;
+width: 100%;
+} 
+
+header li
+{ 
+display:inline; 
+}  
+#custom_menu_icon{
+	display:none;
+}
+.hamburger-box {
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+.hamburger-box div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.navbar-header{
+	background-color: black;
+}
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	background:#000;
+	text-align:center;
+	font-family: Brush Script MT;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #fff;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+.mobile-header{
+	display: inline-block;
+  width: 100%;
+}
+
+.navbar-inverse .navbar-toggle{
+	background:#000;
+	margin-top:20px;
 }
 
