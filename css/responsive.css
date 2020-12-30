@@ -9,6 +9,50 @@
 @media screen and (max-width:767px){
 }
 @media screen and (min-width:480px) and (max-width:767px){	
+.top-strip .top-strip-left{
+	display:none;
 }
+.main-menu{
+	display:none;
+}
+.logo {
+    padding-left: 200px;
+    --padding-right: 80px;
+}
+
+#custom_menu_icon {
+	display:block;
+    top: 75px;
+    right: 10px;
+    float: right;
+    background:#fff;
+}
+#main-logo{
+	display:none;
+}
+
+}
+
 @media screen and (max-width:479px){
+.top-strip .top-strip-left{
+	display:none;
+}
+.logo {
+    padding-left: 350px;
+    --padding-right: 80px;
+}
+.main-menu{
+	display:none;
+}
+
+#custom_menu_icon {
+	display:block;
+    background:#fff;
+	color:#000;
+}
+
+#main-logo{
+	display:none;
+	color:#000;
+}
 }
