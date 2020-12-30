@@ -19,9 +19,7 @@
 </head>
 <body>
 <!---------------------------------- Header ---------------------------------->
-<header>
-  <nav class="cust-nav">
-    <div class="top-strip clearfix">
+<div class="top-strip clearfix">
       <div class="top-strip-left">
         <ul>
           <li>
@@ -32,29 +30,127 @@
       <div class="top-strip-right">
           <ul>
             <li>
-                <a href="javascript:void(0)" class="fa fa-facebook-square fa-2x" style="font-size:19px;"></a>
+                <a href="javascript:void(0)" class="fa fa-facebook-square fa-2x"></a>
             </li>
             <li>
-                <a href="javascript:void(0)" class="fa fa-facebook-squarefa fa-instagram fa-2x" style="font-size:19px;"></a>
+                <a href="javascript:void(0)" class="fa fa-facebook-squarefa fa-instagram fa-2x"></a>
             </li>
 			<li>
-				<a href="" class="fa fa-shopping-cart  fa-2x" style="font-size:19px;"></a>
+				<a href="" class="fa fa-shopping-cart  fa-2x"></a>
 				<span class="cart-value"> 1</span>
 			</li>
 			<li>
-				<a href="" class="fa fa-heart  fa-2x" style="font-size:19px;"></a>
+				<a href="" class="fa fa-heart  fa-2x"></a>
 				<span class="wish-list"> 1</span>
 			</li>
 			<li>
-				<a href="" class="fa fa-sign-in  fa-2x" style="font-size:19px;"></a>
+				<a href="" class="fa fa-sign-in  fa-2x"></a>
 			</li>
           </ul>
         </div>
     </div>
-    <div class="head-top">
-    </div>
-    <div class="head-bottom clearfix animate ">
-    <div class="main-menu">
+<header>
+<div class="container">
+	<div class="topheader">
+      <div class="main-menu">
+		<nav class="main-navigation" role="navigation">
+		  <ul class="clearfix">
+		  <li class="menu-label">
+			  <a href="javascript:void(0)">Home</a>
+		  </li>
+		  <li class="menu-label">
+			<a href="javascript:void(0)">Collection <i class="fa fa-angle-down"></i></a>
+			<div class="dropdown-box animate">
+			  <ul>
+				  <li>
+					  <a href="javascript:void(0)">Summer</a>
+				  </li>
+				  <li>
+					<a href="javascript:void(0)">Spring</a>
+				  </li>
+				  <li>
+					<a href="javascript:void(0)">Winter</a>
+				  </li>
+			  </ul>
+			</div>
+			</li>
+		</ul>
+		</nav>
+	  </div>
+		<div class="logo" id="main-logo">
+					<div class="pnz-header">
+						<div class="left-side-header">
+							<a href="javascript:void()"><img src="images/Needle-Affair.png"></a>
+						</div>
+					</div>
+				</div>
+		<nav id="custom_menu_icon" style="padding: 0px 18px;" class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="logo" style="display:flex;">
+				<div class="pnz-header">
+					<div class="left-side-header">
+						<a href="javascript:void()"><img src="images/Needle-Affair.png"></a>
+					</div>
+				</div>
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+				  <li>
+					  <a href="javascript:void(0)">Home</a>
+				  </li>
+				  <li>
+					<a data-toggle="collapse" href="#collapseExample">Collection <i class="fa fa-angle-down"></i></a>
+					<div class="collapse" id="collapseExample">
+						<ul>
+						  <li>
+							  <a href="javascript:void(0)">Summer</a>
+						  </li>
+						  <li>
+							<a href="javascript:void(0)">Spring</a>
+						  </li>
+						  <li>
+							<a href="javascript:void(0)">Winter</a>
+						  </li>
+					  </ul>
+					</div>
+					</li>
+				</ul>
+			</div>
+		 </nav>
+		<!--<div id="custom_menu_icon" style="padding: 0px 18px;">
+			<div class="hamburger hamburger--slider">
+					<span class="hamburger-box">
+						<div></div>
+						<div></div>
+						<div></div>
+					</span>
+				</div>
+	  </div>-->
+		<div class="main-menu pull-right" style="padding: 0px 18px;">
+		<nav class="main-navigation" role="navigation">
+		  <ul class="clearfix">
+		  <li class="menu-label">
+			  <a href="javascript:void(0)">About</a>
+		  </li>
+		  <li class="menu-label">
+			<a href="javascript:void(0)">Contact</i></a>
+			</li>
+		</ul>
+		</nav>
+	  </div>
+	</div>
+</div>
+<!--
+  <nav class="cust-nav">
+    <div class="header-top">
+		 <div class="main-menu">
       <ul class="clearfix">
       <li class="menu-label">
           <a href="javascript:void(0)">Home</a>
@@ -88,12 +184,15 @@
       </li>
             </ul>
           </div>
+    </div>
+    <div class="head-bottom clearfix animate ">
+   
         </li>
       </ul>
     </div>
 
   </div>
- </nav>
+ </nav> -->
 </header>
 <!---------------------------------- Banner ---------------------------------->
 <div class="main-banner">
