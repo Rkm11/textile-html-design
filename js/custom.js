@@ -36,6 +36,8 @@ jQuery(document).ready(function(){
 		dots:false,
 		autoplay:true, 
 		margin:10,
+		responsiveClass:true,
+		
 		autoplayTimeout:5000,
 		smartSpeed:1500,
 		navText: [
@@ -105,3 +107,15 @@ $(function() {
 		  $("#product-main-img").attr("src",$(this).attr("src"));
         });
 })
+
+$(document).ready(function() {
+  $('.menu-trigger').click(function() {
+    $('ul li').slideToggle(500);
+  });//end slide toggle
+  
+  $(window).resize(function() {		
+		if (  $(window).width() > 500 ) {			
+			$('ul li').removeAttr('style');
+		 }
+	});//end resize
+});//end ready
